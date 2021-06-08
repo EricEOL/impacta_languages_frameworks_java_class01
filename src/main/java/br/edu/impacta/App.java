@@ -1,6 +1,10 @@
 package br.edu.impacta;
 
 import br.edu.impacta.collections.Collections;
+import br.edu.impacta.dynamics.Dynamics;
+import br.edu.impacta.functional.Functions;
+import br.edu.impacta.objects.Objects;
+
 
 public class App 
 {
@@ -13,5 +17,11 @@ public class App
         Controls.swichAndMore();
 
         Collections.listsAndMaps();
+
+        Dynamics.tasteDynamics();
+
+        Objects.playOO();
+
+        Functions.playFunctional();
     }
 }
